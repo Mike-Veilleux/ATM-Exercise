@@ -1,41 +1,179 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+:root {
+  /* --color-primary-0: #2d4471;
+  --color-primary-1: #7788aa;
+  --color-primary-2: #4e638e;
+  --color-primary-3: #152b55;
+  --color-primary-4: #061739;
+  --color-secondary-1-0: #832c65;
+  --color-secondary-1-1: #c583ae;
+  --color-secondary-1-2: #a45287;
+  --color-secondary-1-3: #621046;
+  --color-secondary-1-4: #42002b;
+  --color-secondary-2-0: #7b9f35;
+  --color-secondary-2-1: #d4ee9f;
+  --color-secondary-2-2: #a5c663;
+  --color-secondary-2-3: #567714;
+  --color-secondary-2-4: #354f00; */
+
+  --color-primary-0: #265b6a;
+  --color-primary-1: #6b939f;
+  --color-primary-2: #447684;
+  --color-primary-3: #0f414f;
+  --color-primary-4: #022a35;
+  --color-secondary-1-0: #9a334f;
+  --color-secondary-1-1: #e79aaf;
+  --color-secondary-1-2: #c1607a;
+  --color-secondary-1-3: #74132d;
+  --color-secondary-1-4: #4d0015;
+  --color-secondary-2-0: #aa9439;
+  --color-secondary-2-1: #ffefaa;
+  --color-secondary-2-2: #d4c06a;
+  --color-secondary-2-3: #806b15;
+  --color-secondary-2-4: #554500;
+
+  --fontSize: 1rem;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  user-select: none;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.title {
+  font-size: 3em;
+  padding: 0.5em;
+  color: var(--color-secondary-2-1);
+}
+.itemContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.item {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--color-secondary-1-1);
+  color: var(--color-secondary-2-1);
+}
+.item:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
-.card {
-  padding: 2em;
+.name {
+  font-size: 1.25em;
+  padding: 0.25em;
+}
+.striped {
+  color: var(--color-secondary-1-1);
+  text-decoration: line-through;
 }
 
-.read-the-docs {
-  color: #888;
+.price {
+  font-size: 0.85em;
+}
+.quantity {
+  font-size: 2.5em;
+  padding: 0.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-secondary-2-1);
+}
+
+.message {
+  font-size: 1.25em;
+  padding: 1rem;
+  color: var(--color-secondary-2-1);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid var(--color-secondary-1-1);
+  padding: 12px 20px;
+  background-color: var(--color-secondary-1-0);
+  color: var(--color-secondary-2-1);
+  cursor: pointer;
+  font-size: var(--fontSize);
+}
+button:hover {
+  opacity: 0.7;
+}
+
+body {
+  background-color: var(--color-primary-4);
+  color: var(--color-primary-1);
+}
+
+.textInput {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: 2px solid var(--color-secondary-1-1);
+  border-radius: 0.65rem;
+  color: var(--color-primary-4);
+  font-size: var(--fontSize);
+  background-color: var(--color-secondary-2-1);
+  font-weight: bolder;
+}
+
+.rowFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+.colFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.dropdownList {
+  width: 250px;
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: 2px solid var(--color-secondary-1-1);
+  border-radius: 0.65rem;
+  font-size: var(--fontSize);
+  background-color: var(--color-secondary-2-1);
+  font-weight: bolder;
 }
