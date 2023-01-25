@@ -4,7 +4,7 @@
 
 This repo contains the ATM exercise from my MIT Full Stack development course.
 
-<img src="https://github.com/Mike-Veilleux/ATM-Exercise/blob/main/src/assets/websiteUnderConstruction.png">
+<img src="https://github.com/Mike-Veilleux/ATM-Exercise/blob/main/src/assets/websiteUnderConstruction_v2.png">
 
 ## Description
 
