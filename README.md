@@ -19,6 +19,7 @@ A simple ATM app with deposit and cash withdrawal using React, Formik and Vite t
 
 - Add currency adornment to input field
 - Transactions history/log
+- Improve styling
 
 ## Install
 
