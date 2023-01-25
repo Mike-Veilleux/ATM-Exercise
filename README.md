@@ -8,12 +8,17 @@ This repo contains the ATM exercise from my MIT Full Stack development course.
 
 ## Description
 
-A simple ATM app with deposit and cash withdrawal using React and Vite toolchain. This exercise targets a few skills building
+A simple ATM app with deposit and cash withdrawal using React, Formik and Vite toolchain. For this exercise I've refactored the original project with the following updrades:
 
-- Use of React hooks
-- Custom hooks
-- Passing hooks as props to components
-- Formik validation
+- Added custom hooks
+- Spliteded in functional components
+- implemented state lifting
+- Usage of Formik validation
+
+## Future implementation
+
+- Add currency adornment to input field
+- Transactions history/log
 
 ## Install
 
