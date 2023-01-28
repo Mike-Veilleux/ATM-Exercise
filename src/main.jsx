@@ -4,8 +4,8 @@ import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <App />
-    </BrowserRouter>
+    {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
+    <App />
+    {/* </BrowserRouter> */}
   </React.StrictMode>
 );
