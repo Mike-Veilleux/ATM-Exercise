@@ -30,7 +30,7 @@ const useAtm = () => {
     validate: (values) => {
       let errors = {};
       if (!values.amount) {
-        errors.amount = "Field required";
+        errors.amount = "Enter valid amount";
       } else if (atmMode === "Cash Back" && values.amount > clientData.saldo) {
         errors.amount =
           "Withdrawal amount is bigger than the avaiable balance!";

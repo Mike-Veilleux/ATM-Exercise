@@ -7,6 +7,7 @@ const TransactionForm = (props) => {
           name="amount"
           className="textInput"
           type="number"
+          min="0"
           onChange={props.formik.handleChange}
           placeholder={"Enter amount..."}
           value={props.formik.values.amount}
