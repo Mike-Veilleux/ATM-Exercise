@@ -4,6 +4,8 @@
 
 This repo contains the ATM exercise from my MIT Full Stack development course.
 
+Live demo [here](https://mike-veilleux.github.io/ATM-Exercise/)
+
 <img src="https://github.com/Mike-Veilleux/ATM-Exercise/blob/main/src/assets/ATM_Screenshot.png">
 
 ## Description
